@@ -125,12 +125,12 @@ const AboutPage = () => {
           </p>
           
           <div className="flex flex-wrap justify-center items-center gap-16 md:gap-24 opacity-60">
-            <img src="src/Pictures/logos/Vector.png" alt="Hooli" className="text-5xl font-serif text-gray-400" />
-            <img src="src/Pictures/logos/Vector-1.png" alt="Lyft" className="text-5xl font-serif text-gray-400" />
-            <img src="src/Pictures/logos/Vector-2.png" alt="Pied Piper" className="text-5xl font-serif text-gray-400" />
-            <img src="src/Pictures/logos/Vector-3.png" alt="Stripe" className="text-5xl font-serif text-gray-400" />
-            <img src="src/Pictures/logos/Vector-4.png" alt="AWS" className="text-5xl font-serif text-gray-400" />
-            <img src="src/Pictures/logos/Vector-5.png" alt="Reddit" className="text-5xl font-serif text-gray-400" />
+            <img src="/Pictures/logos/Vector.png" alt="Hooli" className="text-5xl font-serif text-gray-400" />
+            <img src="/Pictures/logos/Vector-1.png" alt="Lyft" className="text-5xl font-serif text-gray-400" />
+            <img src="/Pictures/logos/Vector-2.png" alt="Pied Piper" className="text-5xl font-serif text-gray-400" />
+            <img src="/Pictures/logos/Vector-3.png" alt="Stripe" className="text-5xl font-serif text-gray-400" />
+            <img src="/Pictures/logos/Vector-4.png" alt="AWS" className="text-5xl font-serif text-gray-400" />
+            <img src="/Pictures/logos/Vector-5.png" alt="Reddit" className="text-5xl font-serif text-gray-400" />
           </div>
         </div>
       </section>
@@ -149,7 +149,7 @@ const AboutPage = () => {
         </div>
         <div className="hidden md:block w-1/3">
           <img 
-            src="src/Pictures/ShopOptions/unsplash_vjMgqUkS8q8.png" 
+            src="/Pictures/ShopOptions/unsplash_vjMgqUkS8q8.png" 
             alt="Office vibe" 
             className="w-full h-full object-cover"
             referrerPolicy="no-referrer"

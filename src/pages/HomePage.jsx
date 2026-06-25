@@ -8,7 +8,6 @@ import VitaClassic from '../components/VitaClassic';
 import NeuralUniverse from '../components/NeuralUniverse';
 import FeaturedPosts from '../components/FeaturedPosts';
 
- 
 const HomePage = () => {
 
   const localProducts = [
@@ -17,56 +16,57 @@ const HomePage = () => {
       title: 'Klasik Deri Ceket', 
       category: 'Erkek Dış Giyim', 
       price: 129.99, 
-      image: 'src/Pictures/ShopOptions/product-cover-5.png' 
+      // BAŞINA / KOYDUK VE src YAZISINI SİLDİK
+      image: '/Pictures/ShopOptions/product-cover-5.png' 
     },
     { 
       id: 2, 
       title: 'Zarif Süet Omuz Çantası', 
       category: 'Kadın Aksesuar', 
       price: 89.99, 
-      image: 'src/Pictures/ShopOptions/product-cover-5-1.png' 
+      image: '/Pictures/ShopOptions/product-cover-5-1.png' 
     },
     { 
       id: 3, 
       title: 'Örgü Pamuklu Kazak', 
       category: 'Unisex Giyim', 
       price: 45.00, 
-      image: 'src/Pictures/ShopOptions/product-cover-5-2.png' 
+      image: '/Pictures/ShopOptions/product-cover-5-2.png' 
     },
     { 
       id: 4, 
       title: 'Minimalist Kol Saati', 
       category: 'Premium Aksesuar', 
       price: 159.00, 
-      image: 'src/Pictures/ShopOptions/product-cover-5-3.png' 
+      image: '/Pictures/ShopOptions/product-cover-5-3.png' 
     },
     { 
       id: 5, 
       title: 'Retro Denim Ceket', 
       category: 'Kadın Dış Giyim', 
       price: 79.99, 
-      image: 'src/Pictures/ShopOptions/product-cover-5-4.png' 
+      image: '/Pictures/ShopOptions/product-cover-5-4.png' 
     },
     { 
       id: 6, 
       title: 'Athletic Koşu Ayakkabısı', 
       category: 'Spor Ayakkabı', 
       price: 110.00, 
-      image: 'src/Pictures/ShopOptions/product-cover-5-5.png' 
+      image: '/Pictures/ShopOptions/product-cover-5-5.png' 
     },
     { 
       id: 7, 
       title: 'Premium Fötr Şapka', 
       category: 'Aksesuar', 
       price: 35.00, 
-      image: 'src/Pictures/ShopOptions/product-cover-5-6.png' 
+      image: '/Pictures/ShopOptions/product-cover-5-6.png' 
     },
     { 
       id: 8, 
       title: 'Klasik Güneş Gözlüğü', 
       category: 'Gözlük & Aksesuar', 
       price: 55.00, 
-      image: 'src/Pictures/ShopOptions/product-cover-5-7.png' 
+      image: '/Pictures/ShopOptions/product-cover-5-7.png' 
     },
   ];
 
