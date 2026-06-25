@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Montserrat", ui-sans-serif, system-ui, sans-serif;
+  --color-primary: #23A6F0;
+  --color-secondary: #23856D;
+  --color-dark: #252B42;
+  --color-gray-text: #737373;
+  --color-light-gray: #FAFAFA;
+}
+
+/* Custom utility for hiding scrollbars while keeping functionality */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
