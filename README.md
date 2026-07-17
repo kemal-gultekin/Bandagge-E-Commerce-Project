@@ -2,11 +2,13 @@
 
 Bandage is a modern, responsive e-commerce frontend built with React, Redux, and Tailwind CSS. It includes multi-page navigation, product listings and filtering, a shopping cart, user authentication (login/signup with token verification), and order history, backed by a live REST API.
 
-**Live demo:** _add your Vercel URL here_
+**Live demo:**https://bandagge-e-commerce-project-zq68.vercel.app/
 
 ## Screenshots
-
-_Add 2-3 screenshots or a short GIF here (home page, product page, cart) — this matters more to reviewers than the code itself._
+![Homepage](screenshots/homepage.png.png)
+![Product Page](screenshots/product-page.png.png)
+![Cart](screenshots/sepet.png.png)
+![LoginForm](screenshots/login.png.png)
 
 ## Features
 
